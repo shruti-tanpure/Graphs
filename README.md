@@ -14,3 +14,12 @@ Properties:
 Representation:
 1. Adjacency List - has an array that contains all the vertices in the Graph, and each vertex has a Linked List (or Array) with the vertex's edges.
 2. Adjacency Matrix - a 2D array, where every index (i,j) stores 1(or edge value) if i and j are connected, else 0, while also considering the direction of the edge.
+
+Traversal:
+1. Breadth-First-Traversal(bfs):
+     a. graph traversal algorithm that starts from a source node and explores the graph level by level.
+     b. Popular graph algorithms like Dijkstra's shortest path, Kahn's Algorithm, and Prim's algorithm are based on BFS.
+     c. Time complexity is O(N)+O(2E), where E are the edges of the graph, and N is the number of nodes.
+2. Depth-First-Traversal(dfs):
+     a. graph traversal method that starts from a source vertex and explores each path completely before backtracking and exploring other paths.
+     b. Time complexity is O(N)+O(2E). 
